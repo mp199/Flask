@@ -3,4 +3,5 @@ body {
     font-family: monospace;
     color: red;
     background: yellow;
+    text-shadow: 4px 4px 2px grey;
 }
