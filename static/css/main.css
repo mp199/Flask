@@ -1,7 +1,60 @@
-body {
-    margin: 20;
+.content {
+    margin: auto;
+    width: 40%;
+    height: 50%;
     font-family: monospace;
-    color: red;
-    background: yellow;
-    text-shadow: 4px 4px 2px grey;
+    text-align: center;
+    }
+
+h1 {
+    color: #cc0000;
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 4px 6px 3px #777777;
+
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+table, th, td {
+    font-size: 17px;
+    border: 2px solid grey;
+    text-align: center;
+    border-collapse: collapse;
+    background: #ccbefa;
+}
+
+# svaka kolona ima svoju širinu
+tr td:nth-child(1) {
+    width: 40px;
+}
+
+tr td:nth-child(3) {
+    width: 150px;
+    font-style: italic;
+}
+
+tr td:nth-child(4) {
+    width: 80px;
+}
+
+
+th {
+    background: #123456;
+    color: #fff;
+}
+
+.lync {
+    font-size: 15px;
+    font-family: helvetica;
+    color: #0000ff;
+}
+
+#content {
+    width: 200px;
 }
